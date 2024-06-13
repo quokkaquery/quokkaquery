@@ -2,6 +2,8 @@
 set(SOURCE_FILES
   test_connection_pool.cc
   test_db_connection.cc
+  test_user_connection.cc
+  test_fe_msg_decoder.cc
 )
 
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/build/test/bin)

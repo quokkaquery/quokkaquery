@@ -2,6 +2,7 @@
 set(HEADER_FILES
   ${INCLUDE_PATH_PROTOCOL}/connection_pool.h
   ${INCLUDE_PATH_PROTOCOL}/connection.h
+  ${INCLUDE_PATH_PROTOCOL}/msg_decoder.h
   ${INCLUDE_PATH_PROTOCOL}/server.h
 )
 
@@ -9,6 +10,7 @@ set(HEADER_FILES
 set (SOURCE_FILES
   connection_pool.cc
   connection.cc
+  msg_decoder.cc
   server.cc
 )
 

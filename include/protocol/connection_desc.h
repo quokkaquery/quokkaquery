@@ -8,7 +8,7 @@ namespace protocol {
 struct ConnectionDesc {
   const std::string dbname;
   const std::string username;
-  const std::string parameter; /* name=value[&...] */
+  const std::string parameter; /* name=value[\0...] */
 };
 
 }  // namespace protocol
